@@ -189,11 +189,11 @@
   }
 
   .wrong {
-    color: red;
+    color: #FA0000;
   }
 
   .correct {
-    color: green;
+    color: #00BF63;
   }
 
   body {

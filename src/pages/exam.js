@@ -45,7 +45,7 @@ function Exam() {
     setArray(squares);
     if (squares2[counter] == true && counter <= 9){
       setFirst("center choice choice1 correct");
-      document.body.style = "background-color: green;";
+      document.body.style = "background-color: #00BF63;";
       document.getElementById('id1').style = "color: black;";
       setColor1("black");
       setDis("game neg");
@@ -66,14 +66,14 @@ function Exam() {
       }
     } else if (squares2[counter] == false && counter <= 9){
       setFirst("center choice choice1 wrong");
-      document.body.style = "background-color: red;";
+      document.body.style = "background-color: #FA0000;";
       document.getElementById('id1').style = "color: black;";
       setColor1("black");
       setDis("game neg");
       if (list[counter].ans[0] == document.getElementById('id2').innerHTML){
-        setColor2("green");
+        setColor2("#00BF63");
       } else if (list[counter].ans[0] == document.getElementById('id3').innerHTML){
-        setColor3("green");
+        setColor3("#00BF63");
       }
       await delay(1000);
       setFirst("center choice choice1");
@@ -102,7 +102,7 @@ function Exam() {
     setArray(squares);
     if (squares2[counter] == true && counter <= 9){
       setSecond("center choice choice2 correct");
-      document.body.style = "background-color: green;";
+      document.body.style = "background-color: #00BF63;";
       document.getElementById('id2').style = "color: black;";
       setColor2("black");
       setDis("game neg");
@@ -123,14 +123,14 @@ function Exam() {
       }
     } else if (squares2[counter] == false && counter <= 9){
       setSecond("center choice choice2 wrong");
-      document.body.style = "background-color: red;";
+      document.body.style = "background-color: #FA0000;";
       document.getElementById('id2').style = "color: black;";
       setColor2("black");
       setDis("game neg");
       if (list[counter].ans[0] == document.getElementById('id1').innerHTML){
-        setColor1("green");
+        setColor1("#00BF63");
       } else if (list[counter].ans[0] == document.getElementById('id3').innerHTML){
-        setColor3("green");
+        setColor3("#00BF63");
       }
       await delay(1000);
       setSecond("center choice choice2");
@@ -159,7 +159,7 @@ function Exam() {
     setArray(squares);
     if (squares2[counter] == true && counter <= 9){
       setThird("center choice choice3 correct");
-      document.body.style = "background-color: green;";
+      document.body.style = "background-color: #00BF63;";
       document.getElementById('id3').style = "color: black;";
       setColor3("black");
       setDis("game neg");
@@ -180,14 +180,14 @@ function Exam() {
       }
     } else if (squares2[counter] == false && counter <= 9){
       setThird("center choice choice3 wrong");
-      document.body.style = "background-color: red;";
+      document.body.style = "background-color: #FA0000;";
       document.getElementById('id3').style = "color: black;";
       setColor3("black");
       setDis("game neg");
       if (list[counter].ans[0] == document.getElementById('id1').innerHTML){
-        setColor1("green");
+        setColor1("#00BF63");
       } else if (list[counter].ans[0] == document.getElementById('id2').innerHTML){
-        setColor2("green");
+        setColor2("#00BF63");
       }
       await delay(1000);
       setThird("center choice choice3");
