@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Live Demo ---> [math-game](https://math-game-chi.vercel.app/).
+Live Demo ---> [math-game](https://math-game-m24l8ptk2-hazalcevikk.vercel.app/).
 
 ## Available Scripts
 
